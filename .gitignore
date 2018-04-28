@@ -1,3 +1,9 @@
 ## Sass mess ignoring
 lib/
 scss/
+.sass-cache/
+
+## Node mess ignoring
+node_modules/
+package-lock.json
+gulpfile.js
