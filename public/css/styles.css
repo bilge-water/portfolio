@@ -303,7 +303,7 @@ button, [type='button'], [type='reset'], [type='submit'],
   appearance: none;
   background-color: #E3857D;
   border: 0;
-  border-radius: 3px;
+  border-radius: 6px;
   color: #000;
   cursor: pointer;
   display: inline-block;
@@ -381,7 +381,7 @@ textarea {
   appearance: none;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 3px;
+  border-radius: 6px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
   margin-bottom: 0.75em;
@@ -444,7 +444,7 @@ body {
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
+  margin: 15px 0px 0px 0px;
   padding: 0; }
 
 dl {
@@ -549,6 +549,25 @@ hr {
     clear: both;
     content: "";
     display: block; }
+
+/*************** Navigation */
+header {
+  width: 100%;
+  height: 72px;
+  display: table; }
+  header #logo {
+    display: table-cell;
+    vertical-align: middle; }
+  header nav {
+    float: right;
+    line-height: 72px; }
+    header nav a {
+      font-size: 18px;
+      color: #E3857D;
+      text-transform: uppercase;
+      margin-right: 40px; }
+      header nav a:last-child {
+        margin-right: 9px; }
 
 /*************** Teaser Top layout */
 article.teaser--top {
