@@ -304,7 +304,7 @@ button, [type='button'], [type='reset'], [type='submit'],
   background-color: #E3857D;
   border: 0;
   border-radius: 6px;
-  color: #000;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
@@ -322,7 +322,7 @@ button, [type='button'], [type='reset'], [type='submit'],
   button:hover, [type='button']:hover, [type='reset']:hover, [type='submit']:hover,
   .button:hover {
     background-color: #b66a64;
-    color: #000; }
+    color: #fff; }
   button:focus, [type='button']:focus, [type='reset']:focus, [type='submit']:focus,
   .button:focus {
     outline: 3px solid rgba(227, 133, 125, 0.6);
